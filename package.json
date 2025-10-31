@@ -1,0 +1,24 @@
+{
+  "name": "aariyaa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site (Vite + React + Tailwind) - Aariyaa Tech",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^10.12.5",
+    "lucide-react": "^0.275.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.0.0"
+  }
+}

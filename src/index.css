@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #071224;
+}
+
+/* small utility to ensure glassy panels look consistent */
+.glass {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(0,217,255,0.08);
+  backdrop-filter: blur(8px);
+}
+html {
+  scroll-behavior:smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* height of your navbar */
+}
